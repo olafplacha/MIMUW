@@ -1,4 +1,4 @@
--- Solution to mid-term exam in logical modeling
+-- Solution to mid-term exam in logical modelling
 
 CREATE TABLE oddzial (
 	id NUMBER(10) PRIMARY KEY,
