@@ -45,7 +45,7 @@ let topol l =
   List.iter (function x, _ -> traverse x) l;
   !res;;
 
-  (** The solution utilizes hashtable - lookup takes O(1) time
+  (** The solution utilizes hashtable - lookup takes amortized O(1) time
       The overall time complexity is O(|V| + |E|) as we traverse every vertex and every edge
       The overall space complexity is O(|V| + |E|) as we build an adjacency table *)
       
