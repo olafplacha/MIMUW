@@ -5,7 +5,7 @@ import datetime
 
 db_user = 'op429584'
 db_pass = 'xyz'
-cursor = cx_Oracle.connect('op429584', 'xyz', "//labora.mimuw.edu.pl/LABS").cursor()
+cursor = cx_Oracle.connect('op429584', '', "//labora.mimuw.edu.pl/LABS").cursor()
 
 cityStart = sys.argv[1]
 cityEnd = sys.argv[2]
