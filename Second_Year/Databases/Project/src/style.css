@@ -1,0 +1,239 @@
+#nav
+{
+	position: fixed;
+	left: 0;
+	top: 0;
+	color: #fff;
+	background-color: #000;
+	opacity: 0.95;
+	width: 100%;
+	margin-right: 0;
+	margin-left: auto;
+	color: #fff;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+
+.connection
+{
+	display:inline-block; 
+	height:auto;
+	width: 15%;
+	color: #fff;
+	float: left;
+	margin: 10px;
+}
+
+.navpart
+{
+	padding: 10px;
+	float: left;
+}
+
+.navpart:hover
+{
+	background: #000050;
+}
+
+#link
+{
+	color: #fff;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+
+#link:hover
+{
+	color: #ccccff;
+}
+
+body
+{
+	font-family: 'Montserrat', sans-serif;
+	background-image: url('background.jpg');
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	color: #fff;
+}
+
+#container
+{
+	background-color: #000000;
+	width: 330px;
+	padding: 50px;
+	margin-left: auto;
+	margin-right: auto;
+	opacity: 0.7;
+	color: #e3e8ff;
+}
+
+h1
+{
+	padding-top: 10px;
+	padding-bottom: 160px;
+	font-size: 25px;
+	font-weight: 400;
+	color: #e3e8ff;
+	margin-top: 45px;	
+	margin-bottom: 30px;
+	letter-spacing: 10px;
+	text-transform: uppercase;
+	text-align: center;
+}
+
+input
+{
+	margin: 10px;
+	margin-right: 5px;
+	width: 100%;
+	background-color: #fff;
+	color: #000;
+	padding: 10px;
+	font-size: 20px;
+	border-radius: 5px;
+}
+
+input[type=submit]:hover
+{
+	opacity: 0.9;
+	background-color: #456;
+	color: #fff;
+	cursor: pointer;
+}
+
+#resholder 
+{
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 50px;
+}
+
+.oneResult
+{
+	display: flex;
+	height: auto;
+	margin: 0 auto;
+	margin-top: 30px;
+	background-color: #000;
+	opacity: 0.7;
+	color: #fff;
+	clear: both;
+	padding: 30px;
+	padding-bottom: 40px;
+	text-transform: uppercase;
+	font-size: 12px;
+}
+
+.oneResult:hover
+{
+	opacity: 0.9;
+}
+
+.partOfResult
+{
+	color: #fff;
+	float: left;
+	padding: 10px;
+	margin: 10px;
+}
+
+#totalPrice
+{
+	text-transform: uppercase;
+	color: #fff;
+	font-size: 15px;
+	letter-spacing: 10px;
+	font-weight: 100;
+	margin-top: 40px;
+	text-align: center;
+	background-color: #000;
+	opacity: 0.7;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.airlinepanelticket
+{
+	display:inline-block; 
+	height:auto;
+	width: 11%;
+	color: #fff;
+	float: left;
+	margin: 10px;
+}
+
+.customerpanelticket
+{
+	display:inline-block; 
+	height:auto;
+	width: 10.5%;
+	color: #fff;
+	float: left;
+	margin: 10px;
+}
+
+#footer
+{
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	background-color: #000030;
+	color: white;
+	text-align: center;
+	opacity: 0.8;
+}
+
+.footerlink
+{
+	color: #fff;
+	text-decoration: none;
+	text-transform: uppercase;
+	
+}
+
+.footerpart
+{
+	padding: 10px;
+	float: left;
+}
+
+.footerpart:hover
+{
+	background: #000050;
+}
+
+#singinhref
+{
+	color: #fff;
+	text-decoration: none;
+	font-size: 14px;
+}
+
+#singinhref:hover
+{
+	color: #ccccff;
+}
+
+.del 
+{
+	color: #b30000;
+	text-decoration: none;
+}
+
+.del:hover
+{
+	color: #fb0000;
+	font-weight: 800;
+}
+
+
+
+
+
+
+
+
+
