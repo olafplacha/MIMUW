@@ -10,8 +10,10 @@ def format_datetime(date):
 
 def display_result(flights, sum_price):
     """
+    Used for returning connection in a format suitable for website
     Arguments: 
     - flights - list with flights to display
+    - sum_price
     """
     #store ids in session, so that we can buy tickets for the flights
     ids = ""
