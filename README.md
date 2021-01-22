@@ -30,3 +30,5 @@ Under the hood a modified version of <b>Dijkstra's algorithm</b> is used. You ca
 
 Technologies used: <b>Python, SQL, PL/SQL, HTML, PHP, JavaScript</b>
 
+In order to maintain data integrity <b>triggers</b>, <b>constraints</b> and <b>serializable transactions</b> are used.
+In order to speed up finding best connection <b>indices</b> are used.
