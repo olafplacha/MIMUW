@@ -55,7 +55,8 @@ CREATE TABLE airports (
 	idCity NUMBER(6) NOT NULL REFERENCES cities(id)
 );
 
-CREATE INDEX city_index ON airports(idCity); --will be useful when we want to get all airports in a given city
+--will be useful when we want to get all airports in a given city
+CREATE INDEX city_index ON airports(idCity); 
 
 CREATE TABLE airplaneModels (
 	id NUMBER(6) PRIMARY KEY,
@@ -82,7 +83,8 @@ CREATE TABLE flights (
 	CONSTRAINT dept_before_arr CHECK (date_dept < date_arr)
 );
 
-CREATE INDEX flights_index ON flights(airport_dept, date_dept); --will be useful when we want to get all flights in a given time interval from a given airport
+--will be useful when we want to get all flights in a given time interval from a given airport
+CREATE INDEX flights_index ON flights(airport_dept, date_dept);
 
 CREATE TABLE bookings (
 	id NUMBER(6) PRIMARY KEY,
