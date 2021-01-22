@@ -106,7 +106,6 @@ def main():
             #what time we got to this point
             query = f"SELECT DATE_ARR FROM FLIGHTS WHERE ID = {distances[curr_city][1]}"
             currentDate = cursor.execute(query).fetchall()[0][0]
-            #TO DO - limit maximum days ahead
             query = f"SELECT F.ID, A2.IDCITY,\
                     ((TO_DATE(F.DATE_ARR, 'DD-MON-YY HH12:MI:SS AM') - TO_DATE('{currentDate}', 'yyyy-mm-dd hh24:mi:ss')) * 24\
                     * {weightTime} + F.PRICE_PER_TICKET) AS COST FROM FLIGHTS F\
