@@ -115,7 +115,8 @@ def main():
                     JOIN AIRPORTS A2 ON F.AIRPORT_ARR = A2.ID\
                     JOIN AIRPLANES A ON F.PLANEID = A.ID\
                     JOIN AIRPLANEMODELS AM ON A.MODELID = AM.ID\
-                    WHERE A1.IDCITY = {curr_city} AND F.DATE_DEPT > TO_DATE('{currentDate}', 'yyyy-mm-dd hh24:mi:ss') AND F.DATE_DEPT <(TO_DATE('{currentDate}', 'yyyy-mm-dd hh24:mi:ss') + INTERVAL '48' HOUR) AND AM.CAPACITY > F.SEATS_TAKEN\
+                    WHERE A1.IDCITY = {curr_city} AND F.DATE_DEPT > TO_DATE('{currentDate}', 'yyyy-mm-dd hh24:mi:ss') AND\
+                    F.DATE_DEPT <(TO_DATE('{currentDate}', 'yyyy-mm-dd hh24:mi:ss') + INTERVAL '48' HOUR) AND AM.CAPACITY > F.SEATS_TAKEN\
                     ORDER BY A2.IDCITY, COST"
         
         visitedTemp = set()
