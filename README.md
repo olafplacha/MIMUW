@@ -20,7 +20,9 @@
 ### Databases
 #### Flights search engine with tickets management system
 
-The web application lets users search for flights based on their cost preferences. By setting a large time-value coefficient, the user is shown a fast connection, where total price is not of great importance. On the other hand, setting a small time-value coefficient, the user is shown the cheapest connection, but not necessarily the fastest one. Users can also register and manage their tickets.
+The web application lets users search for flights based on their cost preferences. By setting a large time-value coefficient, the user is shown a fast connection, where total price is not of great importance. On the other hand, setting a small time-value coefficient, the user is shown the cheapest connection, but not necessarily the fastest one. Users can also register and manage their tickets.<br/>
 Moreover, the application lets airlines register, add new airplanes to their fleets and manage their flights.
 
-Under the hood a modified version of Dijkstra's algorithm is used. You can see my implementation [link](https://github.com/olafplacha/MIMUW/blob/main/Second_Year/Databases/Project/algorithm/dijkstra.py)
+Under the hood a modified version of Dijkstra's algorithm is used. You can see my implementation here: [link](https://github.com/olafplacha/MIMUW/blob/main/Second_Year/Databases/Project/algorithm/dijkstra.py)
+
+
