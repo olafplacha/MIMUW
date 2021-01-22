@@ -28,4 +28,5 @@ Moreover, the application lets airlines <b>register</b>, <b>add new airplanes</b
 
 Under the hood a modified version of <b>Dijkstra's algorithm</b> is used. You can see my implementation here: [link](https://github.com/olafplacha/MIMUW/blob/main/Second_Year/Databases/Project/algorithm/dijkstra.py)
 
+Technologies used: <b>Python, SQL, PL/SQL, HTML, PHP, JavaScript</b>
 
