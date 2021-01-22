@@ -92,8 +92,6 @@ CREATE TABLE bookings (
 );
 	
 --trigger for checking if a new booking is possible regarding seats taken
---not sure if it can prevent overbooking when two users are booking the last ticket at the same time (to do: think about isolation level that will prevent this)
-
 CREATE OR REPLACE TRIGGER check_if_not_overbooked
 	BEFORE INSERT ON bookings
 	FOR EACH ROW
@@ -115,7 +113,6 @@ CREATE OR REPLACE TRIGGER check_if_not_overbooked
 /
 
 --trigger for checking if a already booked flight is not being deleted
-
 CREATE OR REPLACE TRIGGER check_if_not_del_booked_flight
 	BEFORE DELETE ON flights
 	FOR EACH ROW
