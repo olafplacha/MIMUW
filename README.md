@@ -19,7 +19,7 @@
 ## Second year
 ### Databases
 #### Flights search engine with tickets management system
-  <img src='https://github.com/olafplacha/MIMUW/blob/main/Second_Year/Databases/Project/doc/searchInterface.png'/>
+  <img src='https://github.com/olafplacha/MIMUW/blob/main/Second_Year/Databases/Project/doc/result.png'/>
 
 The web application lets users search for <b>flights based on their cost preferences</b>. By setting a large time-value coefficient, the user is shown a fast connection, where total price is not of great importance. On the other hand, setting a small time-value coefficient, the user is shown the cheapest connection, but not necessarily the fastest one. Users can also <b>register</b> and <b>manage their tickets</b>.<br/>
 Moreover, the application lets airlines <b>register</b>, <b>add new airplanes</b> to their fleets and <b>manage their flights</b>.
