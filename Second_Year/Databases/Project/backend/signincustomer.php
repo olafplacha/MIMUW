@@ -11,7 +11,7 @@
 		<div class="navpart"><a id="link" href="index.php">Search engine</a></div>
 	</div>
 	<header class="main_header">
-			<h1>Here you can create a new account!</h1>
+		<h1>Here you can create a new account!</h1>
 	</header>
 	<div id="container">
 
@@ -21,8 +21,10 @@
 			<input type="text" name="username" value=""/><br><br/>
 			Password<br/>
 			<input type="password" name="password" value=""/><br><br/>
-			Company Name
-			<input type="text" name="companyname" value=""/><br><br/>
+			First Name
+			<input type="text" name="firstname" value=""/><br><br/>
+			Second Name
+			<input type="text" name="secondname" value=""/><br><br/>
 			Street
 			<input type="text" name="street" value=""/><br><br/>
 			Street Number
@@ -33,14 +35,15 @@
 			<input type="text" name="city" value=""/><br><br/>
 			Country
 			<input type="text" name="country" value=""/><br><br/>
-			<?php	
+			<?php
+	
 			if($_SERVER["REQUEST_METHOD"] == "POST") {
 		  	
-			  	$conn = oci_connect("op429584","xyz","//labora.mimuw.edu.pl/LABS");
+				require_once "config.php";
 				
 				$stmt = oci_parse($conn, "SET TRANSACTION ISOLATION LEVEL SERIALIZABLE");
 				oci_execute($stmt, OCI_NO_AUTO_COMMIT);
-				$stmt = oci_parse($conn, "SELECT MAX(id) AS M FROM AIRLINES");
+				$stmt = oci_parse($conn, "SELECT MAX(id) AS M FROM CUSTOMERS");
 				oci_execute($stmt, OCI_NO_AUTO_COMMIT);
 				$numrows = oci_fetch_all($stmt, $res);
 				if (is_null($res['M'][0])) {
@@ -51,22 +54,23 @@
 				
 				$username = $_POST['username'];
 				$password = $_POST['password'];
-				$companyname = $_POST['companyname'];
+				$firstname = $_POST['firstname'];
+				$secondname = $_POST['secondname'];
 				$street = $_POST['street'];
 				$streetnumber = $_POST['streetnumber'];
 				$postalcode = $_POST['postalcode'];
 				$city = $_POST['city'];
 				$country = $_POST['country'];
 			      	
-			      	$sql = "INSERT INTO AIRLINES 
-			      		(id, username, passHash, company_name, street, 
-			      		street_num, postal_code, city, country)
-			      		VALUES ($newId, '$username', '$password', '$companyname', 
+			      	$sql = "INSERT INTO CUSTOMERS 
+			      		(id, username, passHash, first_name, second_name, street, 
+			      		street_num, postal_code, city, country) 
+			      		VALUES ($newId, '$username', '$password', '$firstname', '$secondname', 
 			      		'$street', '$streetnumber', '$postalcode', '$city', '$country')";
 			      	$stmt = oci_parse($conn, $sql);
 				$res = oci_execute($stmt, OCI_NO_AUTO_COMMIT);
 				if ($res == false) {
-					echo "Your username is not unique or you have improperly filled out the form!";
+					echo "Your username is not unique or you have filled out the form improperly!";
 					$stmt = oci_parse($conn, "ROLLBACK"); 
 					oci_execute($stmt, OCI_NO_AUTO_COMMIT); 
 				} else {

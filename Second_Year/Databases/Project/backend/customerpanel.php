@@ -11,7 +11,7 @@
 		<div class="navpart"><a id="link" href="index.php">Search engine</a></div>
 	</div>
 	<header class="main_header">
-			<h1>Below are your tickets!</h1>
+		<h1>Below are your tickets!</h1>
 	</header>
 	
 	<div id="container">
@@ -37,13 +37,10 @@
 	<div id="resholder">
 
 	<?php
-	ini_set('display_errors', 1);
-	ini_set('display_startup_errors', 1);
-	error_reporting(E_ALL);
+	require_once "config.php";
 	
 	session_start();
 	
-	$conn = oci_connect("op429584","xyz","//labora.mimuw.edu.pl/LABS");
 	$myId = $_SESSION['id'];
 	
 	//preparing list with airports
@@ -118,7 +115,6 @@
 			echo "	<div class='customerpanelticket'>$tickets tickets</div>";
 			echo "	<div class='customerpanelticket'><a class='del' href='delticket.php?bookingId=".$res["BID"][$i]."'>delete</a></div>";
 			echo "</div>";
-		
 			
 		}
 	}

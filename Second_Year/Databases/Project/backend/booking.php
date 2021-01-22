@@ -7,9 +7,7 @@
 	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
 </head>
 <?php
-	ini_set('display_errors', 1);
-	ini_set('display_startup_errors', 1);
-	error_reporting(E_ALL);
+	require_once "config.php";
 	
 	//if user is not logged in, redirect them to log in page
 	session_start();
@@ -20,7 +18,6 @@
 		
 	}
 	//user is logged in as a Customer
-	$conn = oci_connect("op429584","xyz","//labora.mimuw.edu.pl/LABS");
 	$sum = 0;
 	for ($i = 0; $i < count($_SESSION['flightIds']); $i++) {
 		$id = $_SESSION['flightIds'][$i];

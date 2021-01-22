@@ -17,11 +17,7 @@
 	
 		<?php
 		
-		ini_set('display_errors', 1);
-		ini_set('display_startup_errors', 1);
-		error_reporting(E_ALL);
-		
-		$conn = oci_connect("op429584","xyz","//labora.mimuw.edu.pl/LABS");
+		require_once "config.php";
 		
 		$stmt = oci_parse($conn, "SELECT NAME FROM CITIES ORDER BY NAME");
 		oci_execute($stmt, OCI_NO_AUTO_COMMIT);

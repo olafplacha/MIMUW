@@ -11,7 +11,7 @@
 		<div class="navpart"><a id="link" href="index.php">Search engine</a></div>
 	</div>
 	<header class="main_header">
-			<h1>Here you can manage your flights!</h1>
+		<h1>Here you can manage your flights!</h1>
 	</header>
 	
 	<div id="container">
@@ -38,9 +38,10 @@
 	
 	<?php
 	
+	require_once "config.php";
+	
 	session_start();
 	
-	$conn = oci_connect("op429584","xyz","//labora.mimuw.edu.pl/LABS");
 	$myId = $_SESSION['id'];
 	
 	//preparing list with airports

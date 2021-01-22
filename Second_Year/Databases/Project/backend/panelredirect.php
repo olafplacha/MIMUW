@@ -6,7 +6,7 @@
 
 		header ("Location: login.php");
 		
-	}else {
+	} else {
 		$nextLocation = $_SESSION['clientType']."panel.php";
 		header("location: $nextLocation");
 	}

@@ -7,19 +7,13 @@
 	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
 </head>
 <?php
+	require_once "config.php";
 	
   	session_start();
   	
   	$error = '';
   	
   	if($_SERVER["REQUEST_METHOD"] == "POST") {
-  	
-	  	$conn = oci_connect("op429584","xyz","//labora.mimuw.edu.pl/LABS");
-		if (!$conn) {
-			echo "oci_connect failed\n";
-			$e = oci_error();
-			echo $e['message'];
-		}
 	      
 		$myusername = $_POST['username'];
 		$mypassword = $_POST['password'];
@@ -73,8 +67,12 @@
 				<option value="customer">Customer</option>
 				<option value="airline">Airline</option>
 			</select><br/><br>
+			<?php
+			echo '<span style="font-size:12px">';
+			echo $error;
+			echo '</span>';
+			?>
 			<input type = "submit" value = " Submit "/><br/><br/>
-			<?php echo $error; ?><br/><br/>
 			<a id="singinhref" href="signincustomer.php">Create customer account</a><br/><br/>
 			<a id="singinhref" href="signinairline.php">Create airline account</a><br/>
 		</form>

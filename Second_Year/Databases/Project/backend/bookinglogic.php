@@ -14,9 +14,9 @@
 	
 	<?php	
 	
-	session_start();
+	require_once "config.php";
 	
-	$conn = oci_connect("op429584","xyz","//labora.mimuw.edu.pl/LABS");
+	session_start();
 	
 	$stmt = oci_parse($conn, "SET TRANSACTION ISOLATION LEVEL SERIALIZABLE");
 	oci_execute($stmt, OCI_NO_AUTO_COMMIT);

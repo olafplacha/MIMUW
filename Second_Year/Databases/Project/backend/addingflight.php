@@ -12,7 +12,7 @@
 		<div class="navpart"><a id="link" href="panelredirect.php">Panel</a></div>
 	</div>
 	<header class="main_header">
-			<h1>Here you can create a new flight!</h1>
+		<h1>Here you can create a new flight!</h1>
 	</header>
 	<div id="container">
 
@@ -36,10 +36,10 @@
 			<input type="number" name="price" value="" min=1/><br><br/>
 			
 			<?php
+				require_once "config.php";
 	
 				session_start();
 				
-				$conn = oci_connect("op429584","xyz","//labora.mimuw.edu.pl/LABS");
 				$myId = $_SESSION['id'];
 					
 				//preparing list with ariplanes that the airline owns
@@ -90,6 +90,7 @@
 					$stmt = oci_parse($conn, "SELECT MAX(id) AS M FROM FLIGHTS");
 					oci_execute($stmt, OCI_NO_AUTO_COMMIT);
 					$numrows = oci_fetch_all($stmt, $res);
+					
 					if (is_null($res['M'][0])) {
 						$newId = 0;
 					} else {

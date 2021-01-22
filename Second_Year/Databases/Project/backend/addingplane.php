@@ -12,7 +12,7 @@
 		<div class="navpart"><a id="link" href="panelredirect.php">Panel</a></div>
 	</div>
 	<header class="main_header">
-			<h1>Here you can add a new airplane to your fleet!</h1>
+		<h1>Here you can add a new airplane to your fleet!</h1>
 	</header>
 	<div id="container">
 
@@ -21,9 +21,11 @@
 			<input type="text" name="model" list="airplanemodels"/><br/><br/>
 			
 			<?php	
+			
+			require_once "config.php";
+			
 			session_start();
 			
-			$conn = oci_connect("op429584","xyz","//labora.mimuw.edu.pl/LABS");
 			$myId = $_SESSION['id'];
 				
 			//preparing list with ariplane models
@@ -41,6 +43,7 @@
 				$val = $airplanemodelId." | ".$res['PRODUCER'][$i]." | ".$res['TYPE'][$i]." | Capacity:".$res['CAPACITY'][$i];
 				echo "<option value=$airplanemodelId>$val</option>";
 			}
+			
 			echo "</datalist>";
 			
 			//creating airplane ownership

@@ -14,9 +14,9 @@
 	
 	<?php
 	
+	require_once "config.php";
+	
 	session_start();
-
-	$conn = oci_connect("op429584","xyz","//labora.mimuw.edu.pl/LABS");
 
 	//deleting booking specified by id
 	$bookingId = $_GET['bookingId'];
