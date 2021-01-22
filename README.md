@@ -11,7 +11,7 @@
  
 - [Second year](#secondyear)
   - [Databases](#Databases)
-    - [Flights search engine with tickets management system]
+    - [Flights search engine with tickets management system](#Flights-search-engine-with-tickets-management-system)
   - [Probability Theory and Statistics](#rpis)
     - [Bucket Sampling](#bs)
     - [Discrete Distribution's Properties](#dd)
