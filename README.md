@@ -1,7 +1,7 @@
 ## Description of university projects
 
 - [First year](#firstyear)
-  - <h3>[Introduction to Functional Programming](#ifp)</h3>
+  - [Introduction to Functional Programming](#ifp)
     - [Arithmetics of Numbers](#aon)
     - [Interval Set](#is)
     - [Leftiest Trees](#lt)
