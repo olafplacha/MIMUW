@@ -160,7 +160,7 @@ def main():
     else:
         print('No connection')
         
-#------------RUNNING CODE------------
+#------------RUNNING THE CODE------------
 
 if __name__ == "__main__":
     main()
