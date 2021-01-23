@@ -7,7 +7,7 @@
     - [Leftist Trees](#Leftist-Trees)
     - [Origami](#Origami)
     - [Topological Sorting](#Topological-Sorting)
-    - [Pouring Water](#Pouring Water)
+    - [Pouring Water](#Pouring-Water)
  
 - [Second year](#secondyear)
   - [Databases](#Databases)
