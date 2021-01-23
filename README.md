@@ -1,6 +1,6 @@
 ## Description of university projects
 
-- [First year](#firstyear)
+- [First year](#First-year)
   - [Introduction to Functional Programming](#Introduction-to-Functional-Programming)
     - [Arithmetics of Numbers](#Arithmetics-of-Numbers)
     - [Interval Set](#Interval-Set)
@@ -9,7 +9,7 @@
     - [Topological Sorting](#Topological-Sorting)
     - [Pouring Water](#Pouring-Water)
  
-- [Second year](#secondyear)
+- [Second year](#Second-year)
   - [Databases](#Databases)
     - [Flights search engine with tickets management system](#Flights-search-engine-with-tickets-management-system)
   - [Probability Theory and Statistics](#rpis)
