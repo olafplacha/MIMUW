@@ -7,7 +7,7 @@
     - [Leftist Trees](#Leftist-Trees)
     - [Origami](#Origami)
     - [Topological Sorting](#Topological-Sorting)
-    - [Pouring Water](#pw)
+    - [Pouring Water](#Pouring Water)
  
 - [Second year](#secondyear)
   - [Databases](#Databases)
@@ -19,29 +19,31 @@
 ## First year
 ### Introduction to Functional Programming
 #### Arithmetics of Numbers
-The project relied on implementing interface for computations on <b>approximate values</b> (intervals), which are present in various measurements/experiments. I also had to deal with possible <b>float overflow</b>.
+The project relied on implementing an interface for computations on <b>approximate values</b> (intervals), which are present in various measurements/experiments. I also had to deal with possible <b>float overflow</b>.
 
 Technologies used: <b>Ocaml</b>
 
 #### Interval Set
-The project relied on implementing interface for Interval Set, which is a <b>modification of AVL tree</b>, but used for storing intervals, rather than single values. It allowes one to efficiently tell if a given number is present in the set. My implementation was inspired by Xavier Leroy's, Nicolas Cannasse's, Markus Mottl's Polymorphic Set implementation.
+The project relied on implementing an interface for Interval Set, which is a <b>modification of AVL tree</b>, but used for storing intervals, rather than single values. It allows one to efficiently tell if a given number is present in the set. My implementation was inspired by Xavier Leroy's, Nicolas Cannasse's, Markus Mottl's Polymorphic Set implementation.
 
 Technologies used: <b>Ocaml</b>
 
 #### Leftist Trees
-The project replied on implementing interface for Leftist Tree, which is a <b>priority queue</b> implemented with a variant of <b>binary heap</b>. Their main advantage is <b>quick mergeing</b>, which has worst case O(log n) complexity, whereas is oridinary binary heaps it takes O(n) time.
+The project replied on implementing an interface for Leftist Tree, which is a <b>priority queue</b> implemented with a variant of <b>binary heap</b>. Their main advantage is <b>quick merging</b>, which has worst case O(log n) complexity, whereas in ordinary binary heaps it takes O(n) time.
 
 Technologies used: <b>Ocaml</b>
 
 #### Origami
-The project relied on implementing interface for creating origami and determining how many times a pin would cross the paper if it was stuck in the origami in an arbitrary point.
+The project relied on implementing an interface for creating origami and determining how many times a pin would cross the paper if it was stuck in the origami at an arbitrary point.
 
 Technologies used: <b>Ocaml</b>
 
 #### Topological Sorting
-The project relied on implementing interface for sorting Directed Acyclic Graphs topologically. Input was given as adjacency list, which I have transformed into <b>hash map</b> for fast keys lookups. I used <b>depth-first search</b> approach. If the graph given had cycles, exception was raised, since no linear order of its vertices existed. 
+The project relied on implementing an interface for sorting Directed Acyclic Graphs topologically. Input was given as an adjacency list, which I have transformed into <b>hashmap</b> for fast keys lookups. I used a <b>depth-first search</b> approach. If the graph given had cycles, an exception was raised, since no linear order of its vertices existed. 
 
 Technologies used: <b>Ocaml</b>
+
+#### Pouring Water
 
 <hr>
     
