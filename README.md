@@ -4,7 +4,7 @@
   - [Introduction to Functional Programming](#Introduction-to-Functional-Programming)
     - [Arithmetics of Numbers](#Arithmetics-of-Numbers)
     - [Interval Set](#Interval-Set)
-    - [Leftiest Trees](#lt)
+    - [Leftist Trees](#lt)
     - [Origami](#or)
     - [Topological Sorting](#ts)
     - [Pouring Water](#pw)
@@ -28,7 +28,10 @@ The project relied on implementing interface for Interval Set, which is a <b>mod
 
 Technologies used: <b>Ocaml</b>
 
-#### Leftiest Trees
+#### Leftist Trees
+The project replied on implementing interface for Leftist Tree, which is a <b>priority queue</b> implemented with a variant of <b>binary heap</b>. Their main advantage is <b>quick mergeing</b>, which has worst case O(log n) complexity, whereas is oridinary binary heaps it takes O(n) time.
+
+Technologies used: <b>Ocaml</b>
 
 <hr>
     
