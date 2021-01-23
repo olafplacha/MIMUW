@@ -3,7 +3,7 @@
 - [First year](#firstyear)
   - [Introduction to Functional Programming](#Introduction-to-Functional-Programming)
     - [Arithmetics of Numbers](#Arithmetics-of-Numbers)
-    - [Interval Set](#is)
+    - [Interval Set](#Interval-Set)
     - [Leftiest Trees](#lt)
     - [Origami](#or)
     - [Topological Sorting](#ts)
@@ -19,7 +19,12 @@
 ## First year
 ### Introduction to Functional Programming
 #### Arithmetics of Numbers
-The project relied on implementing interface for computations on <b>approximate values</b> (intervals), which are present in various measurements/experiments. I also had to deal with possible float overflow.
+The project relied on implementing interface for computations on <b>approximate values</b> (intervals), which are present in various measurements/experiments. I also had to deal with possible <b>float overflow</b>.
+
+Technologies used: <b>Ocaml</b>
+
+#### Interval Set
+The project relied on implementing interface for Interval Set, which is a <b>modification of AVL tree</b>, but used for storing intervals, rather than single values. It allowes one to efficiently tell if a given number is present in the set. My implementation was inspired by Xavier Leroy's, Nicolas Cannasse's, Markus Mottl's Polymorphic Set implementation.
 
 Technologies used: <b>Ocaml</b>
     
