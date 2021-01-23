@@ -6,7 +6,7 @@
     - [Interval Set](#Interval-Set)
     - [Leftist Trees](#Leftist-Trees)
     - [Origami](#Origami)
-    - [Topological Sorting](#ts)
+    - [Topological Sorting](#Topological-Sorting)
     - [Pouring Water](#pw)
  
 - [Second year](#secondyear)
@@ -35,6 +35,11 @@ Technologies used: <b>Ocaml</b>
 
 #### Origami
 The project relied on implementing interface for creating origami and determining how many times a pin would cross the paper if it was stuck in the origami in an arbitrary point.
+
+Technologies used: <b>Ocaml</b>
+
+#### Topological Sorting
+The project relied on implementing interface for sorting Directed Acyclic Graphs topologically. Input was given as adjacency list, which I have transformed into <b>hash map</b> for fast keys lookups. I used <b>depth-first search</b> approach. If the graph given had cycles, exception was raised, since no linear order of its vertices existed. 
 
 Technologies used: <b>Ocaml</b>
 
