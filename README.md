@@ -16,6 +16,10 @@
     - [Bucket Sampling](#bs)
     - [Discrete Distribution's Properties](#dd)
     
+## First year
+### Introduction to Functional Programming
+#### Flights search engine with tickets management system
+    
 ## Second year
 ### Databases
 #### Flights search engine with tickets management system
