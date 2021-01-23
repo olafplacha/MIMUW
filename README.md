@@ -2,7 +2,7 @@
 
 - [First year](#firstyear)
   - [Introduction to Functional Programming](#Introduction-to-Functional-Programming)
-    - [Arithmetics of Numbers](#aon)
+    - [Arithmetics of Numbers](#Arithmetics-of-Numbers)
     - [Interval Set](#is)
     - [Leftiest Trees](#lt)
     - [Origami](#or)
@@ -18,7 +18,8 @@
     
 ## First year
 ### Introduction to Functional Programming
-#### Flights search engine with tickets management system
+#### Arithmetics of Numbers
+The project relied on implementing interface for computations on <b>approximate values</b> (intervals), which are present in various measurements/experiments. I also had to deal with possible float overflow.
     
 ## Second year
 ### Databases
