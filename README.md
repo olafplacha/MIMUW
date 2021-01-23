@@ -4,8 +4,8 @@
   - [Introduction to Functional Programming](#Introduction-to-Functional-Programming)
     - [Arithmetics of Numbers](#Arithmetics-of-Numbers)
     - [Interval Set](#Interval-Set)
-    - [Leftist Trees](#lt)
-    - [Origami](#or)
+    - [Leftist Trees](#Leftist-Trees)
+    - [Origami](#Origami)
     - [Topological Sorting](#ts)
     - [Pouring Water](#pw)
  
