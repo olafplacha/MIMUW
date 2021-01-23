@@ -33,6 +33,11 @@ The project replied on implementing interface for Leftist Tree, which is a <b>pr
 
 Technologies used: <b>Ocaml</b>
 
+#### Origami
+The project relied on implementing interface for creating origami and determining how many times a pin would cross the paper if it was stuck in the origami in an arbitrary point.
+
+Technologies used: <b>Ocaml</b>
+
 <hr>
     
 ## Second year
