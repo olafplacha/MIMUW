@@ -20,6 +20,8 @@
 ### Introduction to Functional Programming
 #### Arithmetics of Numbers
 The project relied on implementing interface for computations on <b>approximate values</b> (intervals), which are present in various measurements/experiments. I also had to deal with possible float overflow.
+
+Technologies used: <b>Ocaml</b>
     
 ## Second year
 ### Databases
