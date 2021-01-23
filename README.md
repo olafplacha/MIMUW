@@ -27,6 +27,10 @@ Technologies used: <b>Ocaml</b>
 The project relied on implementing interface for Interval Set, which is a <b>modification of AVL tree</b>, but used for storing intervals, rather than single values. It allowes one to efficiently tell if a given number is present in the set. My implementation was inspired by Xavier Leroy's, Nicolas Cannasse's, Markus Mottl's Polymorphic Set implementation.
 
 Technologies used: <b>Ocaml</b>
+
+#### Leftiest Trees
+
+<hr>
     
 ## Second year
 ### Databases
