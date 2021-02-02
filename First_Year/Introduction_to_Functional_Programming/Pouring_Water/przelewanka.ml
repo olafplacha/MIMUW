@@ -111,8 +111,8 @@ let przelewanka input =
           done;
         done;
       
-      (* We have found our target, leave the loop by clearing the queue *)
-      if (!flag) then Queue.clear q;
+        (* We have found our target, leave the loop by clearing the queue *)
+        if (!flag) then Queue.clear q;
       done;
       if (!flag) then (Hashtbl.find visited target) else -1;
     )
