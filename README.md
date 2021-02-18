@@ -12,7 +12,7 @@
 - [Second year](#Second-year)
   - [Databases](#Databases)
     - [Flights search engine with tickets management system](#Flights-search-engine-with-tickets-management-system)
-  - [Probability Theory and Statistics](#rpis)
+  - [Probability Theory and Statistics](#Probability-Theory-and-Statistics)
     - [Bucket Sampling](#Bucket-Sampling)
     - [Discrete Distribution's Properties](#Discrete-Distribution's-Properties)
     - [Monte Carlo Estimation](#Monte-Carlo-Estimation)
@@ -68,10 +68,9 @@ Database: <b>Oracle SQL*Plus</b>
 In order to maintain data integrity <b>triggers</b>, <b>constraints</b> and <b>serializable transactions</b> are used.<br/>
 In order to speed up finding the best connection <b>indices</b> are used.<br/>
 You can see the project here: [link](https://students.mimuw.edu.pl/~op429584/project/)
+<br/>
 
-<hr>
-
-### Databases
+### Probability Theory and Statistics
 #### Bucket Sampling
 #### Discrete Distribution's Properties
 #### Monte Carlo Estimation
