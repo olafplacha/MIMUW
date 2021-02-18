@@ -68,7 +68,8 @@ Database: <b>Oracle SQL*Plus</b>
 In order to maintain data integrity <b>triggers</b>, <b>constraints</b> and <b>serializable transactions</b> are used.<br/>
 In order to speed up finding the best connection <b>indices</b> are used.<br/>
 You can see the project here: [link](https://students.mimuw.edu.pl/~op429584/project/)
-<br/>
+
+<hr>
 
 ### Probability Theory and Statistics
 #### Bucket Sampling
@@ -76,7 +77,7 @@ The project relied on implementing a Bucket Sampling algorithm which enables sam
 
 Technologies used: <b>Python</b> (Numpy, Matplotlib) 
 #### Discrete Distribution's Properties
-The project relied on studying proberties of a discrete distribution without a mean and implementing a function that samples from that distribution.
+The project relied on studying properties of a discrete distribution without a mean and implementing a function that samples from that distribution.
 
 Technologies used: <b>Python</b> (Numpy, Matplotlib) 
 #### Monte Carlo Estimation
