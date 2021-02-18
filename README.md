@@ -72,6 +72,9 @@ You can see the project here: [link](https://students.mimuw.edu.pl/~op429584/pro
 
 ### Probability Theory and Statistics
 #### Bucket Sampling
+The project relied on implementing <b>Bucket Sampling algorithm</b> which enables sampling from a discrete distribution without rejection (much faster than naive sampling with rejection when probabilities are small, which was the case in the project). I <b>vectorized</b> the code so that is takes advantage of <b>SIMD operations</b> (data level parallelism).
+
+Technologies used: <b>Python</b>(Numpy, Matplotlib) 
 #### Discrete Distribution's Properties
 #### Monte Carlo Estimation
 #### Chi Square Independence Test
