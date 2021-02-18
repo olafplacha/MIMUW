@@ -14,7 +14,7 @@
     - [Flights search engine with tickets management system](#Flights-search-engine-with-tickets-management-system)
   - [Probability Theory and Statistics](#Probability-Theory-and-Statistics)
     - [Bucket Sampling](#Bucket-Sampling)
-    - [Discrete Distribution's Properties](#Discrete-Distribution\'s-Properties)
+    - [Discrete Distribution's Properties](#Discrete-Distributions-Properties)
     - [Monte Carlo Estimation](#Monte-Carlo-Estimation)
     - [Chi Square Independence Test](#Chi-Square-Independence-Test)
     
