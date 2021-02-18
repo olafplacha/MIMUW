@@ -81,4 +81,10 @@ The project relied on studying properties of a discrete distribution without a m
 
 Technologies used: <b>Python</b> (Numpy, Matplotlib) 
 #### Monte Carlo Estimation
+The project relied on estimating the number of assignments satisfying given <b>DNF formula</b>. It is a NP hard task, therefore computing the exact solution would be very expensive. I estimated the number using the Monte Carlo method.
+
+Technologies used: <b>Python</b> (Numpy) 
 #### Chi Square Independence Test
+The project relied on performing a <b>statistical test</b> which could assess whether gender has no effect on voting preferences. 
+
+Technologies used: <b>Python</b> (Numpy, SciPy) 
