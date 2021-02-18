@@ -13,8 +13,10 @@
   - [Databases](#Databases)
     - [Flights search engine with tickets management system](#Flights-search-engine-with-tickets-management-system)
   - [Probability Theory and Statistics](#rpis)
-    - [Bucket Sampling](#bs)
-    - [Discrete Distribution's Properties](#dd)
+    - [Bucket Sampling](#Bucket-Sampling)
+    - [Discrete Distribution's Properties](#Discrete-Distribution's-Properties)
+    - [Monte Carlo Estimation](#Monte-Carlo-Estimation)
+    - [Chi Square Independence Test](#Chi-Square-Independence-Test)
     
 ## First year
 ### Introduction to Functional Programming
@@ -66,3 +68,11 @@ Database: <b>Oracle SQL*Plus</b>
 In order to maintain data integrity <b>triggers</b>, <b>constraints</b> and <b>serializable transactions</b> are used.<br/>
 In order to speed up finding the best connection <b>indices</b> are used.<br/>
 You can see the project here: [link](https://students.mimuw.edu.pl/~op429584/project/)
+
+<hr>
+
+### Databases
+#### Bucket Sampling
+#### Discrete Distribution's Properties
+#### Monte Carlo Estimation
+#### Chi Square Independence Test
