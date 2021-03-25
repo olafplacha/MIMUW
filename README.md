@@ -24,7 +24,7 @@
 
 
 ## Elective courses
-## Interpretable Machine Learning
+### Interpretable Machine Learning
 #### Loan Risk Modelling
     
 ## First year
