@@ -1,5 +1,9 @@
 ## Description of university projects
 
+- [Elective courses](#Elective-courses)
+  - [Interpretable Machine Learning](#Interpretable-Machine-Learning)
+    - [Loan Risk Modelling](#Loan-Risk-Modelling)
+
 - [First year](#First-year)
   - [Introduction to Functional Programming](#Introduction-to-Functional-Programming)
     - [Arithmetics of Numbers](#Arithmetics-of-Numbers)
@@ -17,6 +21,11 @@
     - [Discrete Distribution's Properties](#Discrete-Distributions-Properties)
     - [Monte Carlo Estimation](#Monte-Carlo-Estimation)
     - [Chi Square Independence Test](#Chi-Square-Independence-Test)
+
+
+## Elective courses
+## Interpretable Machine Learning
+#### Loan Risk Modelling
     
 ## First year
 ### Introduction to Functional Programming
