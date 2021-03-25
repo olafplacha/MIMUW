@@ -2,7 +2,7 @@
 
 - [Elective courses](#Elective-courses)
   - [Interpretable Machine Learning](#Interpretable-Machine-Learning)
-    - [Loan Risk Modelling](#Loan-Risk-Modelling)
+    - [Loan Risk Modeling](#Loan-Risk-Modelling)
 
 - [First year](#First-year)
   - [Introduction to Functional Programming](#Introduction-to-Functional-Programming)
