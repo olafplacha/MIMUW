@@ -26,6 +26,7 @@
 ## Elective courses
 ### Interpretable Machine Learning
 #### Loan Risk Modelling
+TODO
     
 ## First year
 ### Introduction to Functional Programming
@@ -56,6 +57,11 @@ Technologies used: <b>Ocaml</b>
 
 #### Pouring Water
 The project relied on determining if you can reach a given state of amount of water in glasses doing only a few types of operations. If so, the least number of moves that lead to a given state had to be returned. I solved it using <b>breadth-first search</b> implemented with <b>FIFO queue</b>.
+
+<hr>
+
+### Object Oriented Programming
+TODO
 
 <hr>
     
